@@ -1,0 +1,315 @@
+<gamedata>
+		<CurrentBalance>100,0</CurrentBalance>
+	<companyName>Glado Trading</companyName>
+	<store>
+		<id>1</id>
+		<name>Juice Stand</name>
+		<BaseStoreCost>5</BaseStoreCost>
+		<BaseStoreProfit>1</BaseStoreProfit>
+		<StoreTimer>2,5</StoreTimer>
+		<image>juiceStand</image>
+		<StoreCount>1</StoreCount>
+		<NextStoreCost>5</NextStoreCost>
+		<ManagerCost>10</ManagerCost>
+		<upgrades>
+			<UpgradeCost>20</UpgradeCost>
+			<UpgradeCost2>120</UpgradeCost2>	
+		</upgrades>
+		
+		
+	</store>
+	<store>
+		<id>2</id>
+		<name>Hot Dog Stand</name>
+		<image>hotdog</image>
+		
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>2</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>	
+		</upgrades>
+		
+	</store>
+	<store>
+		<id>3</id>
+		<name>Greengrocer</name>
+		<image>Bananas</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>2</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+
+	</store>
+	<store>
+		<id>4</id>
+		<name>Ice Cream Shop</name>
+		<image>icecream</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>2</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>5</id>
+		<name>Coffee</name>
+		<image>coffee</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>2</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>6</id>
+		<name>Souvenir Shop</name>
+		<image>Gift</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>7</id>
+		<name>Cake Shop</name>
+		<image>cake</image>
+
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>8</id>
+		<name>Construction Market</name>
+		<image>weaponshop</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>9</id>
+		<name>Fast Food Restaurant</name>
+		<image>french_fries</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>10</id>
+		<name>Bookseller</name>
+		<image>bookcase</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>11</id>
+		<name>School Canteen</name>
+		<image>canteen</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>12</id>
+		<name>Sound Studio</name>
+		<image>guitar</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>13</id>
+		<name>Jewelry Store</name>
+		<image>Coin</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>14</id>
+		<name>Hotel</name>
+		<image>hotel</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>15</id>
+		<name>Insurance Company</name>
+		<image>Office</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>16</id>
+		<name>Movie Studio</name>
+		<image>videostore</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>17</id>
+		<name>Building Company</name>
+		<image>construction</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>18</id>
+		<name>Bank</name>
+		<image>bank</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	<store>
+		<id>19</id>
+		<name>Car Company</name>
+		<image>car</image>
+
+		<BaseStoreCost>10</BaseStoreCost>
+		<BaseStoreProfit>3</BaseStoreProfit>
+		<StoreTimer>5</StoreTimer>
+		<StoreCount>0</StoreCount>
+		<NextStoreCost>10</NextStoreCost>
+		<ManagerCost>20</ManagerCost>
+		<upgrades>
+			<UpgradeCost>60</UpgradeCost>
+			<UpgradeCost2>240</UpgradeCost2>
+		</upgrades>
+	</store>
+	
+
+
+</gamedata>
