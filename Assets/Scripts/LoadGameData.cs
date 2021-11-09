@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Xml;
 using TMPro;
 using UnityEngine.UI;
-
+using System;
 
 namespace PathOfTrade
 {
@@ -66,15 +66,18 @@ public class LoadGameData : MonoBehaviour
         {
             foreach (XmlNode StoreInfo in StoreList)
             {
-                GameObject NewStore = Instantiate(StorePrefab);
+                //GameObject NewStore = Instantiate(StorePrefab);
+                //NewStore.transform.SetParent(StorePanel.transform);
+                GameObject NewStore = Instantiate(StorePrefab, StorePanel.transform, false);
+
                 Store StoreObj = NewStore.GetComponent<Store>();
                 NewStore.transform.SetParent(StorePanel.transform);
                 GameManager.instance.AddStore(StoreObj);
 
-                GameObject NewAchievement = Instantiate(AchievementPrefab);
-                NewAchievement.transform.SetParent(AchievementPanel.transform);
-                
-             
+                //GameObject NewAchievement = Instantiate(AchievementPrefab);
+                //NewAchievement.transform.SetParent(AchievementPanel.transform); 
+                 GameObject NewAchievement = Instantiate(AchievementPrefab, AchievementPanel.transform, false);
+
 
                 //Load store nodes
                 XmlNodeList StoreNodes = StoreInfo.ChildNodes;
@@ -158,10 +161,9 @@ public class LoadGameData : MonoBehaviour
     }
     void CreateManager(XmlNode StoreNode, Store StoreObj)
     {
-        GameObject NewManager = Instantiate(ManagerPrefab);
-        NewManager.transform.SetParent(ManagerPanel.transform);
+       GameObject NewManager = Instantiate(ManagerPrefab, ManagerPanel.transform, false);
 
-        TextMeshProUGUI FieldOfManager = NewManager.transform.Find("FieldOfManager").GetComponent<TextMeshProUGUI>();
+       TextMeshProUGUI FieldOfManager = NewManager.transform.Find("FieldOfManager").GetComponent<TextMeshProUGUI>();
         FieldOfManager.text = StoreObj.StoreName;
         StoreObj.ManagerCost = float.Parse(StoreNode.InnerText) * (StoreObj.StoreID * StoreObj.StoreID * 2);
 
@@ -180,10 +182,8 @@ public class LoadGameData : MonoBehaviour
 
     }
     void CreateUpgrade(XmlNode StoreNode, Store StoreObj)
-    {
-        
-        GameObject NewUpgrade = Instantiate(UpgradePrefab);
-        NewUpgrade.transform.SetParent(UpgradePanel.transform);
+    {    
+        GameObject NewUpgrade = Instantiate(UpgradePrefab, UpgradePanel.transform, false);
 
         TextMeshProUGUI UpgradeText = NewUpgrade.transform.Find("UpgradeText").GetComponent<TextMeshProUGUI>();
         UpgradeText.text = StoreObj.StoreName;
